@@ -1,6 +1,21 @@
 <resources>
     <string name="app_name">My Wallet Tracker</string>
-    <string name="bio">আসসালামুআলাইকুম,আমি মোঃ যোবায়ের হাসান নাঈম। আমি বর্তমানে কম্পিউটার সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং বিভাগে পড়াশুনা করছি বাংলাদেশ ইউনিভার্সিটি অফ বিজনেস অ্যান্ড টেকনোলজিতে,এবং পাশাপাশি অ্যাপ ডেভেলপমেন্ট সেক্টরে কাজ করছি।
-        \n\n এই My Wallet Tracker অ্যাপটি আমার আইটি ফার্ম Trodev দ্বারা তৈরি করা হয়েছে এবং My Wallet Tracker অ্যাপটি সংরক্ষণ ও সংশোধন করার সম্পূর্ণ ক্ষমতা Trodev এর রয়েছে।
-        \n\n My Wallet Tracker অ্যাপটি চালানোর সময়ে কোন রকম সমস্যার সম্মুখীন হলে কল বা ইমেইল করে আমাদের জানাতে পারবেন। ধন্যবাদ।</string>
+    <string name="login">Login</string>
+    <string name="sign_in_to_continue">Sign in to continue.</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="need_an_account">Need an account?</string>
+    <string name="sign_up">SIGN UP!</string>
+    <string name="penny_wise">PENNY WISE</string>
+    <string name="username">UserName</string>
+    <string name="re_enter_password">RE-ENTER PASSWORD</string>
+    <string name="todo">TODO</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="penny__wise">PENNY WISE</string>
+    <string name="expense_tracker_and_budget_manager">Expense Tracker And Budget Manager</string>
+    <string name="mad_project">Mad Project</string>
+    <string name="enter_integer_values">enter integer values</string>
+    <string name="eg_food_rent">eg:food,rent..</string>
+    <string name="enter_registered_emailid">Enter Registered EmailId</string>
+    <string name="enter_password">Enter Password</string>
 </resources>

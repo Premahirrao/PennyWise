@@ -33,9 +33,9 @@
 
                 <EditText
                     android:id="@+id/ammount"
+                    android:hint="@string/enter_integer_values"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="number" />
+                    android:layout_height="wrap_content" />
 
                 <RadioGroup
                     android:id="@+id/typeRadioGroup"
@@ -78,8 +78,11 @@
 
                 <EditText
                     android:id="@+id/note"
+                    android:hint="note"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:autofillHints="note"
+                    android:inputType="textLongMessage" />
 
             </LinearLayout>
 
@@ -98,6 +101,7 @@
 
                 <EditText
                     android:id="@+id/category"
+                    android:hint="@string/eg_food_rent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 

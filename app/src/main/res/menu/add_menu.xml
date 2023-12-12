@@ -6,14 +6,10 @@
     android:id="@+id/saveExpense"
     android:title="Save"
     android:icon="@drawable/check_image"
+    android:iconTint="@color/black"
     app:showAsAction="always"
     />
 
-    <item
-        android:id="@+id/developer"
-        android:title="Developer"
-        android:icon="@drawable/developer"
-        app:showAsAction="always"
-        />
+
 
 </menu>

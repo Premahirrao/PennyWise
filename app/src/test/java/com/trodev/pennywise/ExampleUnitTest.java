@@ -1,4 +1,4 @@
-package com.trodev.myexpencetracker;
+package com.trodev.pennywise;
 
 import org.junit.Test;
 

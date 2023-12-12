@@ -47,12 +47,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:background="@color/black"
+            android:background="#FFC400"
             android:fontFamily="@font/ubuntu_medium"
             android:gravity="center"
             android:padding="15dp"
             android:text="Add Income"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
         <TextView
@@ -61,12 +61,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:background="@color/black"
+            android:background="#FFC400"
             android:fontFamily="@font/ubuntu_medium"
             android:gravity="center"
             android:padding="15dp"
             android:text="Add Expense"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
     </LinearLayout>

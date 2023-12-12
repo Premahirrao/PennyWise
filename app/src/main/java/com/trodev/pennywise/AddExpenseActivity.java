@@ -1,27 +1,25 @@
-package com.trodev.myexpencetracker;
+package com.trodev.pennywise;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
+//import androidx.recyclerview.widget.LinearLayoutManager;
 
-import android.app.ProgressDialog;
-import android.content.Context;
-import android.content.Intent;
+//import android.app.ProgressDialog;
+//import android.content.Context;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Toast;
+//import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
+//import com.google.android.gms.tasks.OnFailureListener;
+//import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.firestore.DocumentSnapshot;
+//import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.QuerySnapshot;
-import com.trodev.myexpencetracker.databinding.ActivityAddExpenseBinding;
+//import com.google.firebase.firestore.QuerySnapshot;
+import com.trodev.pennywise.databinding.ActivityAddExpenseBinding;
 
 import java.util.Calendar;
 import java.util.List;
@@ -56,20 +54,10 @@ public class AddExpenseActivity extends AppCompatActivity {
             binding.expenseRadio.setChecked(true);
         }
 
-        binding.incomeRadio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                type = "Income";
-            }
-        });
+        binding.incomeRadio.setOnClickListener(view -> type = "Income");
 
 
-        binding.expenseRadio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                type = "Expense";
-            }
-        });
+        binding.expenseRadio.setOnClickListener(view -> type = "Expense");
     }
 
     @Override
@@ -99,16 +87,13 @@ public class AddExpenseActivity extends AppCompatActivity {
             }
             return true;
         }
-        if (id == R.id.developer) {
-            startActivity(new Intent(AddExpenseActivity.this, DeveloperActivity.class));
-        }
         if (id == R.id.deleteExpense) {
             deleteExpense();
         }
 
+
         return false;
     }
-
     private void deleteExpense() {
         FirebaseFirestore
                 .getInstance()

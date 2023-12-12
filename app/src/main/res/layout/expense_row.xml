@@ -76,16 +76,16 @@
                 android:layout_height="wrap_content"
                 android:text="100"
                 android:textSize="18sp"
-                android:textColor="#FF5722"
+                android:textColor="#876D19"
                 android:fontFamily="@font/ubuntu_bold"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" টাকা"
+                android:text="₹"
                 android:textSize="19sp"
-                android:textColor="#FF5722"
+                android:textColor="#876D19"
                 android:textStyle="bold"
                 android:fontFamily="@font/kalpurush"
                 />

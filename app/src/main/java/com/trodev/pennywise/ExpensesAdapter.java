@@ -1,4 +1,4 @@
-package com.trodev.myexpencetracker;
+package com.trodev.pennywise;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -17,8 +17,8 @@ import java.util.List;
 public class ExpensesAdapter extends RecyclerView.Adapter<ExpensesAdapter.MyViewHolder> {
 
     private Context context;
-    private OnItemsClick onItemsClick;
-    private List<ExpenseModel> expenseModelList;
+    private final OnItemsClick onItemsClick;
+    private final List<ExpenseModel> expenseModelList;
 
     public ExpensesAdapter(Context context, OnItemsClick onItemsClick) {
         this.context = context;
@@ -70,10 +70,14 @@ public class ExpensesAdapter extends RecyclerView.Adapter<ExpensesAdapter.MyView
         return expenseModelList.size();
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
+    public static class MyViewHolder extends RecyclerView.ViewHolder {
 
-        private TextView note, category, amount, date, type;
-        private CardView cardview;
+        private final TextView note;
+        private final TextView category;
+        private final TextView amount;
+        private TextView date;
+        private final TextView type;
+        private final CardView cardview;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
